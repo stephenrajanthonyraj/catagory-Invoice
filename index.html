@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categery invoice</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>  
+    <div class="myform">
+    <div class="form">
+        <form>
+            <div class="catagory">
+                <label for="catagory">Stock catagory</label>
+                <input type="text" id="catagory">
+                <input type="button" value="AddCatagory" id="addCatagory">
+                <select name="" id="selectId">
+                    <option value="choose" id="choose">Choose</option>
+                </select>
+            </div>
+            <div>
+            <label for="text" >Product Name:</label>
+            <input type="text" name="pname" id="pname">
+        </div>
+        <div>
+            <label for="text" >Product image:</label>
+            <input type="file" name="pimage" id="pimage">
+        </div>
+        <div>
+            <label for="text" >Product Quantity:</label>
+            <input type="number" name="pquantity" id="pquantity">
+        </div>
+        <div>
+            <label for="text" >Product Rate:</label>
+            <input type="number" name="prate" id="prate">
+        </div>
+        <div>
+            <label for="text" >Amount:</label>
+            <input type="number" name="amt" id="amt" >
+        </div>
+        <div>
+            <input type="button" value="GetInvoice" id="btn">
+        </div>
+    </form>
+    </div>
+    <div>
+        <table id="tab" border="2px">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product image</th>
+                    <th>Product Quantity</th>
+                    <th>Product Rate</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

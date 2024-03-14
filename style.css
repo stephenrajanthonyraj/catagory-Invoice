@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    background-image: url("https://wallpapers.com/images/featured/office-desk-a1yivbaxal92jim2.jpg");
+    background-repeat: no-repeat;
+}
+/* #choose{
+    width: 20px;
+    height: 20px;
+} */
+div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 10px;
+    
+}
+
+input{
+    margin: 10px;
+}
+
+
+#tab{
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(240,240,240,0.8);
+    margin-left: 100px;
+}
+
+.form{
+    color: #991136;
+    background-color: rgba(235,235,235,0.7);
+    width:470px;
+    padding:20px ;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.myform{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-top:100px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.catagory{
+    display: flex;
+    flex-direction: row;
+}
+
